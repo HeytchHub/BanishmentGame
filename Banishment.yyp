@@ -35,8 +35,8 @@
   },
   "resources": [
     {"id":{"name":"background","path":"sprites/background/background.yy",},},
-    {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},},
-    {"id":{"name":"obj_ground","path":"objects/obj_ground/obj_ground.yy",},},
+    {"id":{"name":"Controllers","path":"objects/Controllers/Controllers.yy",},},
+    {"id":{"name":"BOUND","path":"objects/BOUND/BOUND.yy",},},
     {"id":{"name":"PlayerL","path":"sprites/PlayerL/PlayerL.yy",},},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
     {"id":{"name":"PLAYER","path":"objects/PLAYER/PLAYER.yy",},},
