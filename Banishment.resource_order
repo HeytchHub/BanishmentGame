@@ -20,6 +20,7 @@
     {"name":"background","order":19,"path":"sprites/background/background.yy",},
     {"name":"Controllers","order":5,"path":"objects/Controllers/Controllers.yy",},
     {"name":"PlayerL","order":21,"path":"sprites/PlayerL/PlayerL.yy",},
+    {"name":"Object4","order":6,"path":"objects/Object4/Object4.yy",},
     {"name":"tTerrainF","order":31,"path":"sprites/tTerrainF/tTerrainF.yy",},
     {"name":"tTerrain","order":2,"path":"tilesets/tTerrain/tTerrain.yy",},
     {"name":"sPlayer","order":1,"path":"sprites/sPlayer/sPlayer.yy",},
