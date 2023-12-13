@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "PlayerL",
-  "bbox_bottom": 169,
+  "bbox_bottom": 84,
   "bbox_left": 0,
-  "bbox_right": 149,
+  "bbox_right": 74,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"49aadbbb-b15f-418d-a769-a793b4c262e6",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"015ada08-9575-42eb-bd65-daf7bc975cdc",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 170,
+  "height": 85,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9c455499-798f-4d90-bda4-a63345eea75e","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e2d31204-6c4f-4ad5-b739-4b0183835293","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"49aadbbb-b15f-418d-a769-a793b4c262e6","path":"sprites/PlayerL/PlayerL.yy",},},},"Disabled":false,"id":"bccf8382-c7e0-44ac-9305-726dfbf17457","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"015ada08-9575-42eb-bd65-daf7bc975cdc","path":"sprites/PlayerL/PlayerL.yy",},},},"Disabled":false,"id":"16ca6325-7969-44af-829f-b21dc603ed2a","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 150,
+  "width": 75,
 }
