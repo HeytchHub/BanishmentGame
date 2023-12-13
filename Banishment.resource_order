@@ -17,10 +17,12 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"background","order":19,"path":"sprites/background/background.yy",},
     {"name":"Sprite4","order":2,"path":"sprites/Sprite4/Sprite4.yy",},
-    {"name":"example","order":16,"path":"sprites/example/example.yy",},
+    {"name":"PlayerL","order":21,"path":"sprites/PlayerL/PlayerL.yy",},
     {"name":"sPlayer","order":1,"path":"sprites/sPlayer/sPlayer.yy",},
-    {"name":"oPlayer","order":1,"path":"objects/oPlayer/oPlayer.yy",},
+    {"name":"PLAYER","order":3,"path":"objects/PLAYER/PLAYER.yy",},
+    {"name":"PlayerR","order":20,"path":"sprites/PlayerR/PlayerR.yy",},
     {"name":"sWall","order":2,"path":"sprites/sWall/sWall.yy",},
   ],
 }
