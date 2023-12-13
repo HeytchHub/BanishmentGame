@@ -19,6 +19,5 @@ if (move_x > 0)
 }
 else if (move_x < 0)
 {
-    // Left movement
     sprite_index = PlayerL;
 }
