@@ -18,11 +18,13 @@
   ],
   "ResourceOrderSettings": [
     {"name":"background","order":19,"path":"sprites/background/background.yy",},
+    {"name":"EnemyL","order":5,"path":"sprites/EnemyL/EnemyL.yy",},
+    {"name":"PlayerA","order":4,"path":"sprites/PlayerA/PlayerA.yy",},
     {"name":"Controllers","order":5,"path":"objects/Controllers/Controllers.yy",},
-    {"name":"PlayerL","order":21,"path":"sprites/PlayerL/PlayerL.yy",},
-    {"name":"sPlayer","order":1,"path":"sprites/sPlayer/sPlayer.yy",},
+    {"name":"PlayerL","order":2,"path":"sprites/PlayerL/PlayerL.yy",},
+    {"name":"Oenemy","order":6,"path":"objects/Oenemy/Oenemy.yy",},
     {"name":"PLAYER","order":3,"path":"objects/PLAYER/PLAYER.yy",},
-    {"name":"PlayerR","order":20,"path":"sprites/PlayerR/PlayerR.yy",},
-    {"name":"sWall","order":2,"path":"sprites/sWall/sWall.yy",},
+    {"name":"PlayerR","order":3,"path":"sprites/PlayerR/PlayerR.yy",},
+    {"name":"sWall","order":1,"path":"sprites/sWall/sWall.yy",},
   ],
 }

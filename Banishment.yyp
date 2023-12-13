@@ -31,14 +31,16 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.2.108",
+    "IDEVersion": "2023.11.0.121",
   },
   "resources": [
     {"id":{"name":"background","path":"sprites/background/background.yy",},},
+    {"id":{"name":"EnemyL","path":"sprites/EnemyL/EnemyL.yy",},},
+    {"id":{"name":"PlayerA","path":"sprites/PlayerA/PlayerA.yy",},},
     {"id":{"name":"Controllers","path":"objects/Controllers/Controllers.yy",},},
     {"id":{"name":"BOUND","path":"objects/BOUND/BOUND.yy",},},
     {"id":{"name":"PlayerL","path":"sprites/PlayerL/PlayerL.yy",},},
-    {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
+    {"id":{"name":"Oenemy","path":"objects/Oenemy/Oenemy.yy",},},
     {"id":{"name":"PLAYER","path":"objects/PLAYER/PLAYER.yy",},},
     {"id":{"name":"PlayerR","path":"sprites/PlayerR/PlayerR.yy",},},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},
