@@ -17,10 +17,12 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"PlayerA","order":23,"path":"sprites/PlayerA/PlayerA.yy",},
+    {"name":"_8de3a540_8cce_4f60_8965_c142dbda744c","order":22,"path":"sprites/_8de3a540_8cce_4f60_8965_c142dbda744c/_8de3a540_8cce_4f60_8965_c142dbda744c.yy",},
     {"name":"background","order":19,"path":"sprites/background/background.yy",},
     {"name":"Controllers","order":5,"path":"objects/Controllers/Controllers.yy",},
+    {"name":"oEnemy","order":7,"path":"objects/oEnemy/oEnemy.yy",},
     {"name":"PlayerL","order":21,"path":"sprites/PlayerL/PlayerL.yy",},
-    {"name":"Object4","order":6,"path":"objects/Object4/Object4.yy",},
     {"name":"tTerrainF","order":31,"path":"sprites/tTerrainF/tTerrainF.yy",},
     {"name":"tTerrain","order":2,"path":"tilesets/tTerrain/tTerrain.yy",},
     {"name":"sPlayer","order":1,"path":"sprites/sPlayer/sPlayer.yy",},

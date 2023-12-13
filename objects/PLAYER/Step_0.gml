@@ -25,3 +25,16 @@ else if (move_x < 0)
 {
     sprite_index = PlayerL;
 }
+
+if (keyboard_check_pressed(vk_control) && can_attack) {
+    can_attack = false;
+    sprite_index = sprite[combo];
+    combo = (combo+1)%comboMax;
+
+    alarm[0] = 10;
+    alarm[1] = 15;
+}
+
+if(!keyboard_check(vk_anykey) && can_attack) {
+    sprite_index = PlayerR;
+}

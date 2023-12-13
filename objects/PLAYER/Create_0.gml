@@ -13,3 +13,9 @@ global.player_y = 200;
 global.current_room = room_index;
 
 terrain_mask = layer_tilemap_get_id("tTerrain");
+
+can_attack = true;
+
+combo = 0;
+comboMax = 1;
+sprite[0] = PlayerA;
