@@ -11,3 +11,5 @@ global.player_x = 100;
 global.player_y = 200;
 
 global.current_room = room_index;
+
+terrain_mask = layer_tilemap_get_id("tTerrain");

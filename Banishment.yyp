@@ -38,6 +38,8 @@
     {"id":{"name":"Controllers","path":"objects/Controllers/Controllers.yy",},},
     {"id":{"name":"BOUND","path":"objects/BOUND/BOUND.yy",},},
     {"id":{"name":"PlayerL","path":"sprites/PlayerL/PlayerL.yy",},},
+    {"id":{"name":"tTerrainF","path":"sprites/tTerrainF/tTerrainF.yy",},},
+    {"id":{"name":"tTerrain","path":"tilesets/tTerrain/tTerrain.yy",},},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
     {"id":{"name":"PLAYER","path":"objects/PLAYER/PLAYER.yy",},},
     {"id":{"name":"PlayerR","path":"sprites/PlayerR/PlayerR.yy",},},
