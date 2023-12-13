@@ -34,3 +34,10 @@ if (!place_meeting(x, y + vspd, terrain_mask)) {
     }
     vspd = 0; 
 }
+
+var PlayerAttacking = global.isAttack;
+if (PlayerAttacking == true){
+	if (place_meeting(x, y, PLAYER)) {
+        instance_destroy();
+	}
+}

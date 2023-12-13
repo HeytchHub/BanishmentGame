@@ -19,3 +19,5 @@ can_attack = true;
 combo = 0;
 comboMax = 1;
 sprite[0] = PlayerA;
+
+global.isAttack = false;
