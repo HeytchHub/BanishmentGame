@@ -38,4 +38,7 @@ if (keyboard_check_pressed(vk_control) && can_attack) {
     alarm[1] = 15;
 	global.isAttack = true;
 }
+else {
+	
+}
 

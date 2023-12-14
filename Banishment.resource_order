@@ -18,9 +18,11 @@
   ],
   "ResourceOrderSettings": [
     {"name":"PlayerA","order":23,"path":"sprites/PlayerA/PlayerA.yy",},
-    {"name":"_8de3a540_8cce_4f60_8965_c142dbda744c","order":22,"path":"sprites/_8de3a540_8cce_4f60_8965_c142dbda744c/_8de3a540_8cce_4f60_8965_c142dbda744c.yy",},
+    {"name":"enemy_idle","order":22,"path":"sprites/enemy_idle/enemy_idle.yy",},
+    {"name":"enemy_alert","order":24,"path":"sprites/enemy_alert/enemy_alert.yy",},
     {"name":"background","order":19,"path":"sprites/background/background.yy",},
     {"name":"Controllers","order":5,"path":"objects/Controllers/Controllers.yy",},
+    {"name":"enemy_damaged","order":25,"path":"sprites/enemy_damaged/enemy_damaged.yy",},
     {"name":"oEnemy","order":7,"path":"objects/oEnemy/oEnemy.yy",},
     {"name":"PlayerL","order":21,"path":"sprites/PlayerL/PlayerL.yy",},
     {"name":"tTerrainF","order":31,"path":"sprites/tTerrainF/tTerrainF.yy",},

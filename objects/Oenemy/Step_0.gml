@@ -1,8 +1,9 @@
 var distance_to_player = point_distance(x, y, PLAYER.x, PLAYER.y);
-var chase_range = 400;
+var chase_range = 200;
 var min_gravity_distance = 100; 
 
 if (distance_to_player < chase_range) {
+	sprite_index = enemy_alert;
     if (place_meeting(x, y + 1, terrain_mask)) {
         var direction_to_player = point_direction(x, y, PLAYER.x, PLAYER.y);
         var move_speed = 2; 
@@ -20,6 +21,9 @@ if (distance_to_player < chase_range) {
         vspd += grv;
     }
 }
+else {
+	sprite_index = enemy_idle;	
+}
 
 if (distance_to_player >= chase_range || distance_to_player > min_gravity_distance) {
     vspd += grv; 
@@ -36,8 +40,11 @@ if (!place_meeting(x, y + vspd, terrain_mask)) {
 }
 
 var PlayerAttacking = global.isAttack;
+
 if (PlayerAttacking == true){
-	if (place_meeting(x, y, PLAYER)) {
+    if (place_meeting(x, y, PLAYER)) {
+		sprite_index = enemy_damaged; 
         instance_destroy();
-	}
+    }
 }
+

@@ -5,6 +5,7 @@
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -29,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "_8de3a540_8cce_4f60_8965_c142dbda744c",
-    "path": "sprites/_8de3a540_8cce_4f60_8965_c142dbda744c/_8de3a540_8cce_4f60_8965_c142dbda744c.yy",
+    "name": "enemy_idle",
+    "path": "sprites/enemy_idle/enemy_idle.yy",
   },
   "spriteMaskId": null,
   "visible": true,
