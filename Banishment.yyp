@@ -31,11 +31,12 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.11.0.121",
+    "IDEVersion": "2023.8.2.108",
   },
   "resources": [
     {"id":{"name":"PlayerA","path":"sprites/PlayerA/PlayerA.yy",},},
     {"id":{"name":"enemy_idle","path":"sprites/enemy_idle/enemy_idle.yy",},},
+    {"id":{"name":"Enums","path":"scripts/Enums/Enums.yy",},},
     {"id":{"name":"enemy_alert","path":"sprites/enemy_alert/enemy_alert.yy",},},
     {"id":{"name":"background","path":"sprites/background/background.yy",},},
     {"id":{"name":"Controllers","path":"objects/Controllers/Controllers.yy",},},
