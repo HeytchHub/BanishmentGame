@@ -1,6 +1,6 @@
 // Speed 
 MoveSpeed = 6;
-JumpSpeed = 16;
+JumpSpeed = 17;
 MoveX = 0;
 MoveY = 0;
 mTerrain = layer_tilemap_get_id("tTerrain");
