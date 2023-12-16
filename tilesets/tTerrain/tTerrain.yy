@@ -16,8 +16,8 @@
     "path": "folders/Tile Sets.yy",
   },
   "spriteId": {
-    "name": "tTerrainF",
-    "path": "sprites/tTerrainF/tTerrainF.yy",
+    "name": "tTerrainUpdated",
+    "path": "sprites/tTerrainUpdated/tTerrainUpdated.yy",
   },
   "spriteNoExport": false,
   "textureGroupId": {
