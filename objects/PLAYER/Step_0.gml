@@ -39,14 +39,29 @@ switch(state)
     break;
 }
 
+// When attacking the target_enemy
 if (keyboard_check_pressed(vk_control) && can_attack) {
-    can_attack = false;
-	    sprite_index = sprite[combo];
-	    combo = (combo+1)%comboMax;
+    sprite_index = sprite[combo];
+    combo = (combo + 1) % comboMax;
 
-	    alarm[0] = 10;
-	    alarm[1] = 15;
-		global.isAttack = true;
+    alarm[0] = attack_speed;
+    alarm[1] = 15;
+	
+	if (target != noone) {
+		if (distance_to_object(target) <= attackrange) {
+			if(can_attack == true)  {
+				can_attack = false;
+				target.hitpoints -= irandom_range(damage-8, damage+5);
+			}
+		}
+	}
 }
+
+
+
+
+
+
+
 
 

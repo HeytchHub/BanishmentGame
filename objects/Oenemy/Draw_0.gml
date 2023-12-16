@@ -3,7 +3,7 @@
 
 draw_self();
 draw_set_color(c_red);
-draw_text(x, y-20,string(hitpoints)+" / "+string(maxHitpoints));
+draw_text(x-35, y-80,string(hitpoints)+" / "+string(maxHitpoints));
 
 
 
