@@ -15,7 +15,13 @@ state = STATE_PLAYER.Walk;
 //attack and kill code
 target_enemy = noone;
 damage = 20;
-attack_speed = 50;
+attack_speed = 20;
 attackrange = 10;
 attack_delay = 3 * room_speed; 
+
+//hp
+maxHitpoints = 1500;
+hitpoints = maxHitpoints;
+
+
 

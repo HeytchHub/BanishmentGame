@@ -2,6 +2,7 @@ var distance_to_player = point_distance(x, y, PLAYER.x, PLAYER.y);
 var chase_range = 200;
 var min_gravity_distance = 100; 
 
+
 if (distance_to_player < chase_range) {
 	PLAYER.target = id; 
 	sprite_index = enemy_alert;
@@ -40,7 +41,6 @@ if (!place_meeting(x, y + vspd, terrain_mask)) {
     vspd = 0; 
 }
 
-//attack ng enemy
 target = instance_find(PLAYER, 0); 
 var attack_cooldown = 60; 
 
