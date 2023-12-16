@@ -39,12 +39,8 @@ if (!place_meeting(x, y + vspd, terrain_mask)) {
     vspd = 0; 
 }
 
-var PlayerAttacking = global.isAttack;
+//enemy destroy kapag naubos na hp
+ if (hitpoints <= 0) 
+    instance_destroy();
 
-if (PlayerAttacking == true){
-    if (place_meeting(x, y, PLAYER)) {
-		sprite_index = enemy_damaged; 
-        instance_destroy();
-    }
-}
 
