@@ -49,7 +49,7 @@ if (distance_to_player < attack_range) {
 	if (target != noone) {
 		if(can_attack == true)  {
 			can_attack = false;
-			target.hitpoints -= irandom_range(damage-8, damage+5);
+			target.hitpoints -= damage;
 			alarm[0] = attack_cooldown;
 		}
 	}

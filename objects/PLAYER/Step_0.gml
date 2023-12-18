@@ -51,7 +51,13 @@ if (keyboard_check_pressed(vk_control) && can_attack) {
 		if (distance_to_object(target) <= attackrange) {
 			if(can_attack == true)  {
 				can_attack = false;
-				target.hitpoints -= irandom_range(damage-8, damage+5);
+				target.hitpoints -= damage;
+				
+				if (target.hitpoints <= 0) {
+					// Increment the player's level upon killing the enemy
+					player_level += 1; 
+					damage += 20;
+				}
 			}
 		}
 	}

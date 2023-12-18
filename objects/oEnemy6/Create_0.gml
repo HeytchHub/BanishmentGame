@@ -7,7 +7,7 @@ hspd = 0;
 PLAYER.target = id; 
 can_attack = true;
 
-maxHitpoints = 150;
+maxHitpoints = 200;
 hitpoints = maxHitpoints;
 damage=20;
 attack_range = 50;
